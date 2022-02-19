@@ -9,11 +9,11 @@ def items (items, row, slot):
     return row[slot]
 
 # golbal variables
-api_key = 'RGAPI-7867657e-5e92-4ea6-ae7b-9325e12fd9fa'
+api_key = 'YOURAPIKEY'
 watcher = LolWatcher(api_key)
-my_region = 'euw1'
+my_region = 'YOURREGION'
 
-me = watcher.summoner.by_name(my_region, 'Rodri05')
+me = watcher.summoner.by_name(my_region, 'YOURNAME')
 #print(me)
 
 # Return the rank status
